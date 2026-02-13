@@ -1,0 +1,109 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Crimson Swords Racing Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">⚔️ CrimsonSwords</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html> 
+
+    <section class="contact-section">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm" class="form">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="">Select a topic</option>
+                            <option value="joining">Joining the Team</option>
+                            <option value="sponsorship">Sponsorship Inquiry</option>
+                            <option value="general">General Question</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:nsscrimsonswords@gmail.com">nsscrimsonswords@gmail.com</a>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Northern Secondary School<br>
+                        851 Mt Pleasant Rd<br>
+                        Toronto, Ontario M4P 2L5</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-calendar"></i>
+                    <div>
+                        <h4>Meeting Schedule</h4>
+                        <p>Tuesdays, Thursdays & Fridays<br>
+                        After school hours<br>
+                        Optional Saturday sessions during competition season</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <a href="https://www.instagram.com/crimson.swords/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
